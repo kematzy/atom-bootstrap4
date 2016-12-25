@@ -1591,13 +1591,13 @@
     'prefix': 'loccs'
     'body': """
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="$1/css/bootstrap.css">
+      <link rel="stylesheet" href="${1:/assets}/css/bootstrap${2:.min}.css">
     """
 
   'Local JS - Bootstrap 4 ':
     'prefix': 'locjs'
     'body': """
       <!-- jQuery first, then Bootstrap JS. -->
-      <script src="$1/js/jquery.min.js"></script>
-      <script src="$1/js/bootstrap.js"></script>
+      <script src="${1:/assets}/js/jquery.min.js"></script>
+      <script src="${1:/assets}/js/bootstrap.js"></script>
     """
