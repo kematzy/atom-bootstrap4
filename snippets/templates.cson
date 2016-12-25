@@ -6,8 +6,9 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>$1</title>
 
@@ -32,15 +33,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Carousel Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Carousel Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -254,15 +255,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Cover Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Cover Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -332,15 +333,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dashboard Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Dashboard Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -580,15 +581,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Grid Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Grid Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -768,15 +769,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jumbotron Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Jumbotron Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -858,15 +859,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Navbar Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Navbar Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -922,14 +923,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Fixed top navbar example for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Fixed top navbar example for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -982,15 +984,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Justified Nav Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Justified Nav Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1073,14 +1075,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Top navbar example for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Top navbar example for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1132,15 +1135,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Sticky Footer Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Sticky Footer Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1186,15 +1189,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Sticky Footer Navbar Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Sticky Footer Navbar Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1274,15 +1277,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Signin Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Signin Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1331,15 +1334,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Blog Template for Bootstrap</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-        <title>Blog Template for Bootstrap</title>
+        <link rel="icon" href="/favicon.ico">
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1509,15 +1512,15 @@
     <!DOCTYPE html>
     <html lang="en">
       <head>
+        <!-- Required meta tags always come first -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>$2</title>
+
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="${1:/favicon.ico}">
-
-        <title>$2</title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
@@ -1526,7 +1529,9 @@
         <!-- ${4:My} CSS -->
         <link rel="stylesheet" href="${5:css/style.css}">
       </head>
+
       <body>
+
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <a class="navbar-brand" href="#">Project name</a>
           <ul class="nav nav-pills">
