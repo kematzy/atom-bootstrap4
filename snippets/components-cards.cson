@@ -5,7 +5,7 @@
     'prefix': 'car'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
+        <img class="card-img-top" src="$1" alt="${2:Card image cap}">
         <div class="card-block">
           <h4 class="card-title">${3:Card title}</h4>
           <p class="card-text">${4:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
@@ -18,7 +18,7 @@
     'prefix': 'carct'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="${1:holder.js/100%x180/?text=Image cap}" alt="${2:Card image cap}">
+        <img class="card-img-top" src="$1" alt="${2:Card image caption}">
         <div class="card-block">
           <h4 class="card-title">${3:Card title}</h4>
           <p class="card-text">${4:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
@@ -39,9 +39,9 @@
     'prefix': 'carctwli'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="${2:holder.js/100%x180/?text=Image cap}" alt="${3:Card image cap}">
+        <img class="card-img-top" src="$1" alt="${2:Card image cap}">
         <div class="card-block">
-          <p class="card-text">${1:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+          <p class="card-text">${3:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
         </div>
       </div>
     """
@@ -65,7 +65,7 @@
           <h4 class="card-title">${1:Card title}</h4>
           <h6 class="card-subtitle text-muted">${2:Support card subtitle}</h6>
         </div>
-        <img data-src="${3:holder.js/100%x180/?text=Image}" alt="${4:Card image}">
+        <img src="$3" alt="${4:Card image caption}">
         <div class="card-block">
           <p class="card-text">${5:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
           <a href="${6:#}" class="card-link">${7:Card link}</a>
@@ -114,13 +114,13 @@
         <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
 
-      <div class="card card-block text-center">
+      <div class="card card-block text-xs-center">
         <h4 class="card-title">${1:Special title treatment}</h4>
         <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
         <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
       </div>
 
-      <div class="card card-block text-right">
+      <div class="card card-block text-xs-right">
         <h4 class="card-title">${1:Special title treatment}</h4>
         <p class="card-text">${2:With supporting text below as a natural lead-in to additional content.}</p>
         <a href="${3:#}" class="btn btn-primary">${4:Go somewhere}</a>
@@ -162,7 +162,7 @@
     'prefix': 'caric'
     'body': """
       <div class="card">
-        <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
+        <img class="card-img-top" src="$1" alt="${2:Card image cap}">
         <div class="card-block">
           <h4 class="card-title">${3:Card title}</h4>
           <p class="card-text">${4:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
@@ -175,7 +175,7 @@
           <p class="card-text">${4:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
           <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
-        <img class="card-img-bottom" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
+        <img class="card-img-bottom" src="$1" alt="${2:Card image cap}">
       </div>
     """
 
@@ -183,11 +183,11 @@
     'prefix': 'cario'
     'body': """
       <div class="card card-inverse">
-        <img class="card-img" data-src="holder.js/100%x270/#55595c:#373a3c/text:Card image" alt="Card image">
+        <img class="card-img" src="$1" alt="Card image">
         <div class="card-img-overlay">
-          <h4 class="card-title">${3:Card title}</h4>
-          <p class="card-text">${4:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
-          <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
+          <h4 class="card-title">${2:Card title}</h4>
+          <p class="card-text">${3:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+          <p class="card-text"><small class="text-muted">${4:Last updated 3 mins ago}</small></p>
         </div>
       </div>
     """
@@ -207,7 +207,20 @@
   'Cards background color - Bootstrap 4':
     'prefix': 'carbgc'
     'body': """
-      <div class="card card-inverse card-${1:primary|success|info|warning|danger} text-center">
+      <div class="card card-inverse card-${1:primary|success|info|warning|danger} text-xs-center">
+        <div class="card-block">
+          <blockquote class="card-blockquote">
+            <p>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+            <footer>${8:Someone famous in }<cite title="${9:Source Title}">${9:Source Title}</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    """
+
+  'Cards Outline - Bootstrap 4':
+    'prefix': 'carout'
+    'body': """
+      <div class="card card-outline-${1:primary|success|info|warning|danger} text-xs-center">
         <div class="card-block">
           <blockquote class="card-blockquote">
             <p>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
@@ -222,7 +235,7 @@
     'body': """
       <div class="card-group">
         <div class="card">
-          <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
+          <img class="card-img-top" src="$1" alt="${2:Card image cap}">
           <div class="card-block">
             <h4 class="card-title">${3:Card title}</h4>
             <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
@@ -230,7 +243,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
+          <img class="card-img-top" src="$1" alt="${2:Card image cap}">
           <div class="card-block">
             <h4 class="card-title">${3:Card title}</h4>
             <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
@@ -238,7 +251,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
+          <img class="card-img-top" src="$1" alt="${2:Card image cap}">
           <div class="card-block">
             <h4 class="card-title">${3:Card title}</h4>
             <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
@@ -254,7 +267,7 @@
       <div class="card-deck-wrapper">
         <div class="card-deck">
           <div class="card">
-            <img class="card-img-top" data-src="${1:holder.js/100%x200/}" alt="${2:Card image cap}">
+            <img class="card-img-top" src="$1" alt="${2:Card image cap}">
             <div class="card-block">
               <h4 class="card-title">${3:Card title}</h4>
               <p class="card-text">${5:This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
@@ -262,7 +275,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" data-src="${1:holder.js/100%x200/}" alt="${2:Card image cap}">
+            <img class="card-img-top" src="$1" alt="${2:Card image cap}">
             <div class="card-block">
               <h4 class="card-title">${3:Card title}</h4>
               <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
@@ -270,7 +283,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img-top" data-src="${1:holder.js/100%x200/}" alt="${2:Card image cap}">
+            <img class="card-img-top" src="$1" alt="${2:Card image cap}">
             <div class="card-block">
               <h4 class="card-title">${3:Card title}</h4>
               <p class="card-text">${5:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
@@ -286,7 +299,7 @@
     'body': """
       <div class="card-columns">
         <div class="card">
-          <img class="card-img-top" data-src="${1:holder.js/100%x160/}" alt="${2:Card image cap}">
+          <img class="card-img-top" src="$1" alt="${2:Card image cap}">
           <div class="card-block">
             <h4 class="card-title">{4:Card title that wraps to a new line}</h4>
             <p class="card-text">${5:This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
@@ -303,7 +316,7 @@
           </blockquote>
         </div>
         <div class="card">
-          <img class="card-img-top" data-src="${1:holder.js/100%x160/}" alt="${2:Card image cap}">
+          <img class="card-img-top" src="$1" alt="${2:Card image cap}">
           <div class="card-block">
             <h4 class="card-title">${3:Card title}</h4>
             <p class="card-text">${5:This card has supporting text below as a natural lead-in to additional content.}</p>
@@ -326,7 +339,7 @@
           <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
         <div class="card">
-          <img class="card-img" data-src="${1:holder.js/100%x260/}" alt="${2:Card image}">
+          <img class="card-img" src="$1" alt="${2:Card image cap}">
         </div>
         <div class="card card-block text-right">
           <blockquote class="card-blockquote">
@@ -344,16 +357,4 @@
           <p class="card-text"><small class="text-muted">${6:Last updated 3 mins ago}</small></p>
         </div>
       </div>
-    """
-
-  'Cards groups - Bootstrap 4':
-    'prefix': 'cargr'
-    'body': """
-
-    """
-
-  'Cards groups - Bootstrap 4':
-    'prefix': 'cargr'
-    'body': """
-
     """
