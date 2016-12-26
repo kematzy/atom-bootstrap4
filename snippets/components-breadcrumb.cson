@@ -17,3 +17,15 @@
         <li class="active">${3:Data}</li>
       </ol>
     """
+
+  # Breadcrumb
+  'Breadcrumb Nav - Bootstrap 4':
+    'prefix': 'bren'
+    'body': """
+      <nav class="breadcrumb">
+        <a class="breadcrumb-item" href="#">${1:Home}</a>
+        <a class="breadcrumb-item" href="#">${2:Library}</a>
+        <a class="breadcrumb-item" href="#">${3:Data}</a>
+        <span class="breadcrumb-item active">${4:Bootstrap}</span>
+      </nav>
+    """
