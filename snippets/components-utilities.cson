@@ -4,7 +4,19 @@
   'Text alignment - Bootstrap 4':
     'prefix': 'texta'
     'body': """
-      <p class="text-${1:left|center|right|justify|nowrap}">$2</p>
+      <p class="text-${1:xs|sm|md|lg|xl}-${2:left|center|right}">$3</p>
+    """
+
+  'Text Alignment Justify - Bootstrap 4':
+    'prefix': 'textjus'
+    'body': """
+      <p class="text-justify">$1</p>
+    """
+
+  'Text alignment - Bootstrap 4':
+    'prefix': 'textnowrap'
+    'body': """
+      <p class="text-nowrap">$1</p>
     """
 
   'Text transform - Bootstrap 4':
@@ -19,6 +31,18 @@
       <p class="text-${1:muted|primary|success|info|warning|danger}">${2:Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.}</p>
     """
 
+  'Text Font Weight - Bootstrap 4':
+    'prefix': 'textfow'
+    'body': """
+      <p class="text-weight-${1:normal|bold}">${2:Normal weight text|Bold text}</p>
+    """
+
+  'Text Font Italics - Bootstrap 4':
+    'prefix': 'textfoi'
+    'body': """
+      <p class="text-italics">${1:Italic text}</p>
+    """
+
   'Text context background colors - Bootstrap 4':
     'prefix': 'textbgcol'
     'body': """
@@ -30,7 +54,6 @@
     'body': """
       <button type="button" class="close" aria-label="Close">
         <span aria-hidden="true">&times;</span>
-        <span class="sr-only">${1:Close}</span>
       </button>
     """
 
