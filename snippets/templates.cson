@@ -50,13 +50,13 @@
         <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
         <!-- Custom styles for this template -->
-        <link href="http://v4-alpha.getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/examples/carousel.css" rel="stylesheet">
       </head>
       <body>
 
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-static-top navbar-light bg-faded">
           <a href="#" class="navbar-brand">Carousel</a>
-          <ul class="nav nav-pills">
+          <ul class="nav navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -72,21 +72,19 @@
           </ul>
         </nav>
 
-
-        <!-- Carousel
-        ================================================== -->
+        <!-- Carousel ======================================= -->
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
               <div class="container">
-                <div class="carousel-caption text-left">
+                <div class="carousel-caption text-xs-left">
                   <h1>Example headline.</h1>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
@@ -106,7 +104,7 @@
             <div class="carousel-item">
               <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
               <div class="container">
-                <div class="carousel-caption text-right">
+                <div class="carousel-caption text-xs-right">
                   <h1>One more for good measure.</h1>
                   <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
@@ -137,19 +135,19 @@
               <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h2>Heading</h2>
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
 
@@ -164,19 +162,19 @@
               <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-              <img class="featurette-image img-fluid center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MDA0YjlkNGM4IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUwMDRiOWQ0YzgiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEzMjgxMjUiIHk9IjI2MS4xIj41MDB4NTAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+              <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
             </div>
           </div>
 
           <hr class="featurette-divider">
 
           <div class="row featurette">
-            <div class="col-md-7 col-md-push-5">
+            <div class="col-md-7 push-md-5">
               <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
               <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
-            <div class="col-md-5 col-md-pull-7">
-              <img class="featurette-image img-fluid center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MDA0YjliZmI0IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUwMDRiOWJmYjQiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEzMjgxMjUiIHk9IjI2MS4xIj41MDB4NTAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+            <div class="col-md-5 pull-md-7">
+              <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
             </div>
           </div>
 
@@ -188,7 +186,7 @@
               <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-              <img class="featurette-image img-fluid center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MDA0YjlkMjE5IHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUwMDRiOWQyMTkiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEzMjgxMjUiIHk9IjI2MS4xIj41MDB4NTAwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+              <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
             </div>
           </div>
 
@@ -199,8 +197,8 @@
 
           <!-- FOOTER -->
           <footer>
-            <p class="pull-right"><a href="#">Back to top</a></p>
-            <p>© 2014 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+            <p class="float-xs-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
           </footer>
 
         </div><!-- /.container -->
@@ -217,34 +215,6 @@
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
-        <svg xmlns="http://www.w3.org/2000/svg"
-          width="500"
-          height="500"
-          viewBox="0 0 500 500"
-          preserveAspectRatio="none"
-          style="
-            display: none;
-            visibility: hidden;
-            position: absolute;
-            top: -100%;
-            left: -100%;
-          "
-        >
-          <defs>
-            <style type="text/css"></style>
-          </defs>
-          <text
-            x="0"
-            y="25"
-            style="
-              font-weight:bold;
-              font-size:25pt;
-              font-family:Arial, Helvetica, Open Sans, sans-serif
-            "
-          >
-            500x500
-          </text>
-        </svg>
       </body>
     </html>
     """
@@ -269,7 +239,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
         <!-- Custom styles for this template -->
-        <link href="http://v4-alpha.getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/examples/cover.css" rel="stylesheet">
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -304,7 +274,7 @@
 
               <div class="mastfoot">
                 <div class="inner">
-                  <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                  <p>Cover template for <a href="https://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
                 </div>
               </div>
 
@@ -604,10 +574,8 @@
       <body>
         <div class="container">
 
-          <div class="page-header">
-            <h1>Bootstrap grid examples</h1>
-            <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
-          </div>
+          <h1>Bootstrap grid examples</h1>
+          <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
 
           <h3>Five grid tiers</h3>
           <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
@@ -644,6 +612,7 @@
 
           <h3>Three equal columns</h3>
           <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
+
           <div class="row">
             <div class="col-md-4">.col-md-4</div>
             <div class="col-md-4">.col-md-4</div>
@@ -652,6 +621,7 @@
 
           <h3>Three unequal columns</h3>
           <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+
           <div class="row">
             <div class="col-md-3">.col-md-3</div>
             <div class="col-md-6">.col-md-6</div>
@@ -660,6 +630,7 @@
 
           <h3>Two columns</h3>
           <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
+
           <div class="row">
             <div class="col-md-8">.col-md-8</div>
             <div class="col-md-4">.col-md-4</div>
@@ -673,6 +644,7 @@
           <h3>Two columns with two nested columns</h3>
           <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger column.</p>
           <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+
           <div class="row">
             <div class="col-md-8">
               .col-md-8
@@ -687,8 +659,9 @@
           <hr>
 
           <h3>Mixed: mobile and desktop</h3>
-          <p>The Bootstrap 3 grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+          <p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
           <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+
           <div class="row">
             <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
             <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
@@ -720,7 +693,7 @@
           <hr>
 
           <h3>Column clearing</h3>
-          <p><a href="http://getbootstrap.com/css/#grid-responsive-resets">Clear floats</a> at specific breakpoints to prevent awkward wrapping with uneven content.</p>
+          <p><a href="https://getbootstrap.com/css/#grid-responsive-resets">Clear floats</a> at specific breakpoints to prevent awkward wrapping with uneven content.</p>
           <div class="row">
             <div class="col-xs-6 col-sm-3">
               .col-xs-6 .col-sm-3
@@ -730,11 +703,12 @@
             <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
 
             <!-- Add the extra clearfix for only the required viewport -->
-            <div class="clearfix visible-xs"></div>
+            <div class="clearfix hidden-sm-up"></div>
 
             <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
             <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
           </div>
+
 
           <hr>
 
@@ -742,11 +716,11 @@
           <p>Reset offsets, pushes, and pulls at specific breakpoints.</p>
           <div class="row">
             <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
-            <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0</div>
           </div>
           <div class="row">
             <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
-            <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
           </div>
 
 
@@ -791,9 +765,9 @@
 
       <body>
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-static-top navbar-dark bg-inverse">
           <a class="navbar-brand" href="#">Project name</a>
-          <ul class="nav nav-pills">
+          <ul class="nav navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -806,12 +780,13 @@
           </ul>
         </nav>
 
+
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
           <div class="container">
-            <h1>Hello, world!</h1>
+            <h1 class="display-3">Hello, world!</h1>
             <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
           </div>
         </div>
 
@@ -821,25 +796,120 @@
             <div class="col-md-4">
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-md-4">
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
            </div>
             <div class="col-md-4">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             </div>
           </div>
 
           <hr>
 
           <footer>
-            <p>© Company 2014</p>
+            <p>&copy; Company 2016</p>
           </footer>
+        </div> <!-- /container -->
+
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+      </body>
+    </html>
+    """
+
+  'Narrow Jumbotron template - Bootstrap 4 ':
+    'prefix': 'htmljbn'
+    'body': """
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Narow Jumbotron Template for Bootstrap</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="/favicon.ico">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+        <!-- Custom styles for this template -->
+        <link href="http://v4-alpha.getbootstrap.com/examples/jumbotron/narrow-jumbotron.css" rel="stylesheet">
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+      </head>
+
+      <body>
+
+        <div class="container">
+          <div class="header clearfix">
+
+            <nav class="navbar navbar-static-top navbar-dark bg-inverse">
+              <a class="navbar-brand" href="#">Project name</a>
+              <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Main jumbotron for a primary marketing message or call to action -->
+          <div class="jumbotron">
+            <h1 class="display-3">Jumbotron heading</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+          </div>
+
+          <div class="row marketing">
+            <div class="col-lg-6">
+              <h4>Subheading</h4>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+              <h4>Subheading</h4>
+              <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+              <h4>Subheading</h4>
+              <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <h4>Subheading</h4>
+              <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+              <h4>Subheading</h4>
+              <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+              <h4>Subheading</h4>
+              <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <p>&copy; Company 2014</p>
+          </footer>
+
         </div> <!-- /container -->
 
 
@@ -882,30 +952,42 @@
       <body>
 
         <div class="container">
-
-          <div class="collapse" id="navbar-header">
-            <div class="inverse p-a">
-              <h3>Collapsed content</h3>
-              <p>Toggleable via the navbar brand.</p>
+          <nav class="navbar navbar-light bg-faded">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <div class="collapse navbar-toggleable-xs" id="navbar-header">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <form class="form-inline float-xs-right">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
-          </div>
-          <div class="navbar navbar-default navbar-static-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header">
-              ☰
-            </button>
-          </div>
+          </nav> <!-- /navbar -->
 
           <!-- Main component for a primary marketing message or call to action -->
           <div class="jumbotron">
             <h1>Navbar example</h1>
-            <p>This example is a quick exercise to illustrate how the default navbar works. It's placed within a <code>.container</code> to limit its width and will scroll with the rest of the page's content.</p>
+            <p>This example is a quick exercise to illustrate how the default responsive navbar works. It's placed within a <code>.container</code> to limit its width and will scroll with the rest of the page's content.</p>
+            <p>At the smallest breakpoint, the collapse plugin is used to hide the links and show a menu button to toggle the collapsed content.</p>
             <p>
-              <a class="btn btn-lg btn-primary" href="http://v4-alpha.getbootstrap.com/components/#navbar" role="button">View navbar docs »</a>
+              <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
             </p>
           </div>
 
         </div> <!-- /container -->
-
 
         <!-- Bootstrap core JavaScript -->
         <!-- Placed at the end of the document so the pages load faster -->
@@ -947,15 +1029,13 @@
 
         <div class="pos-f-t">
           <div class="collapse" id="navbar-header">
-            <div class="container-fluid inverse p-a">
+            <div class="container-fluid bg-inverse p-1">
               <h3>Collapsed content</h3>
               <p>Toggleable via the navbar brand.</p>
             </div>
           </div>
-          <div class="navbar navbar-default navbar-static-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header">
-              ☰
-            </button>
+          <div class="navbar navbar-light bg-faded navbar-static-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
           </div>
         </div>
 
@@ -963,10 +1043,9 @@
           <div class="jumbotron">
             <h1>Navbar example</h1>
             <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser's viewport.</p>
-            <a class="btn btn-lg btn-primary" href="http://v4-alpha.getbootstrap.com/components/#navbar" role="button">View navbar docs »</a>
+            <a class="btn btn-lg btn-primary" href="http://v4-alpha.getbootstrap.com/components/navbar/" role="button">View navbar docs »</a>
           </div>
         </div>
-
 
         <!-- Bootstrap core JavaScript -->
         <!-- Placed at the end of the document so the pages load faster -->
@@ -998,10 +1077,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
         <!-- Custom styles for this template -->
-        <link href="http://v4-alpha.getbootstrap.com/examples/justified-nav/justified-nav.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/examples/justified-nav.css" rel="stylesheet">
 
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1014,12 +1091,12 @@
             <h3 class="text-muted">Project name</h3>
             <nav>
               <ul class="nav nav-justified">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Downloads</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Downloads</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -1035,25 +1112,25 @@
           <div class="row">
             <div class="col-lg-4">
               <h2>Safari bug warning!</h2>
-              <p class="text-danger">As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+              <p class="text-danger">As of v9.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-lg-4">
               <h2>Heading</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
            </div>
             <div class="col-lg-4">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-              <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+              <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
             </div>
           </div>
 
           <!-- Site footer -->
           <footer class="footer">
-            <p>© Company 2014</p>
+            <p>&copy; Company 2016</p>
           </footer>
 
         </div> <!-- /container -->
@@ -1064,6 +1141,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
       </body>
     </html>
@@ -1098,26 +1178,23 @@
 
       <body>
 
-        <div class="collapse" id="navbar-header" aria-expanded="false" style="height: 0px;">
-          <div class="container-fluid inverse p-a">
+        <div class="collapse" id="navbar-header">
+          <div class="container-fluid bg-inverse p-1">
             <h3>Collapsed content</h3>
             <p>Toggleable via the navbar brand.</p>
           </div>
         </div>
-        <div class="navbar navbar-default navbar-static-top">
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-header" aria-expanded="false">
-            ☰
-          </button>
+        <div class="navbar navbar-light bg-faded navbar-static-top mb-1">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
         </div>
 
         <div class="container">
           <div class="jumbotron">
             <h1>Navbar example</h1>
             <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll, this navbar remains in its original position and moves with the rest of the page.</p>
-            <a class="btn btn-lg btn-primary" href="http://v4-alpha.getbootstrap.com/components/#navbar" role="button">View navbar docs »</a>
+            <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
           </div>
         </div>
-
 
         <!-- Bootstrap core JavaScript -->
         <!-- Placed at the end of the document so the pages load faster -->
@@ -1149,17 +1226,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
         <!-- Custom styles for this template -->
-        <link href="http://v4-alpha.getbootstrap.com/examples/sticky-footer/sticky-footer.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/examples/sticky-footer.css" rel="stylesheet">
 
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
 
         <!-- Begin page content -->
         <div class="container">
-          <div class="page-header">
+          <div class="mt-1">
             <h1>Sticky footer</h1>
           </div>
           <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
@@ -1168,7 +1243,7 @@
 
         <footer class="footer">
           <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
+            <span class="text-muted">Place sticky footer content here.</span>
           </div>
         </footer>
 
@@ -1178,6 +1253,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
       </body>
     </html>
@@ -1203,60 +1281,56 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
         <!-- Custom styles for this template -->
-        <link href="http://v4-alpha.getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/examples/sticky-footer-navbar.css" rel="stylesheet">
 
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
 
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Project name</a>
+        <div class="pos-f-t">
+          <div class="collapse" id="navbar-header">
+            <div class="container bg-inverse p-1">
+              <h3>Collapsed content</h3>
+              <p>Toggleable via the navbar brand.</p>
             </div>
-            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 0px;">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <div role="separator" class="dropdown-divider"></div>
-                    <h6 class="dropdown-header">Nav header</h6>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                    <a class="dropdown-item" href="#">One more separated link</a>
-                  </div>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
           </div>
-        </nav>
+          <nav class="navbar navbar-light navbar-static-top bg-faded">
+            <div class="container">
+              <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-expanded="false" aria-controls="exCollapsingNavbar2" aria-label="Toggle navigation"></button>
+              <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                <a class="navbar-brand" href="#">Sticky footer</a>
+                <ul class="nav navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Nav item <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Another nav item</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">More nav</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Last link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
 
         <!-- Begin page content -->
         <div class="container">
-          <div class="page-header">
+          <div class="mt-1">
             <h1>Sticky footer with fixed navbar</h1>
           </div>
           <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-          <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+          <p>Back to <a href="http://v4-alpha.getbootstrap.com/examples/sticky-footer">the default sticky footer</a> minus the navbar.</p>
         </div>
 
         <footer class="footer">
           <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
+            <span class="text-muted">Place sticky footer content here.</span>
           </div>
         </footer>
 
@@ -1266,6 +1340,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
       </body>
     </html>
@@ -1291,10 +1368,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
         <!-- Custom styles for this template -->
-        <link href="http://v4-alpha.getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
+        <link href="http://v4-alpha.getbootstrap.com/examples/signin.css" rel="stylesheet">
 
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
       </head>
 
       <body>
@@ -1304,9 +1379,9 @@
           <form class="form-signin">
             <h2 class="form-signin-heading">Please sign in</h2>
             <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
             <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="remember-me"> Remember me
@@ -1323,6 +1398,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
       </body>
     </html>
@@ -1506,6 +1584,139 @@
     </html>
     """
 
+  'Album template - Bootstrap 4 ':
+    'prefix': 'htmlal'
+    'body': """
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Album Template for Bootstrap</title>
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="/favicon.ico">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+        <!-- Custom styles for this template -->
+        <link href="http://v4-alpha.getbootstrap.com/examples/album.css" rel="stylesheet">
+
+      </head>
+
+      <body>
+
+        <div class="navbar-collapse collapse inverse" id="navbar-header">
+          <div class="container-fluid">
+            <div class="about">
+              <h4>About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="social">
+              <h4>Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Follow on Twitter</a></li>
+                <li><a href="#">Like on Facebook</a></li>
+                <li><a href="#">Email me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-static-top navbar-dark bg-inverse">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <a href="#" class="navbar-brand">Album</a>
+          </div>
+        </div>
+
+        <section class="jumbotron text-xs-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Album example</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+            <p>
+              <a href="#" class="btn btn-primary">Main call to action</a>
+              <a href="#" class="btn btn-secondary">Secondary action</a>
+            </p>
+          </div>
+        </section>
+
+        <div class="album text-muted">
+          <div class="container">
+
+            <div class="row">
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card">
+                <img data-src="http://v4-alpha.getbootstrap.com/assets/js/vendor/holder.min.js/100px280/thumb" alt="Card image cap">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <footer class="text-muted">
+          <div class="container">
+            <p class="float-xs-right">
+              <a href="#">Back to top</a>
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="http://v4-alpha.getbootstrap.com/">Visit the homepage</a> or read our <a href="http://v4-alpha.getbootstrap.com/getting-started/">getting started guide</a>.</p>
+          </div>
+        </footer>
+
+
+
+
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+      </body>
+    </html>
+    """
+
   'Starter template - Bootstrap 4':
     'prefix': 'htmlst'
     'body': """
@@ -1532,9 +1743,9 @@
 
       <body>
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+      <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
           <a class="navbar-brand" href="#">Project name</a>
-          <ul class="nav nav-pills">
+          <ul class="nav navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -1561,6 +1772,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
       </body>
     </html>
